@@ -5,5 +5,5 @@ result_list =[]
 for i, j in zip(src, src[1::]):
     if j>i: result_list.append(j)
 
-
+ 
 print(result_list)
